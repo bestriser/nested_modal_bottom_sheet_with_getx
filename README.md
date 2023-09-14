@@ -5,4 +5,4 @@ GetXの公式ドキュメントの[Route管理 > ネスト構造のナビゲー�
 `Get.bottomSheet()`の中で画面遷移するサンプルを作成しました。
 
 ## 実装結果
-https://github.com/bestriser/nested_modal_bottom_sheet_with_getx/assets/55462291/09ee8eb4-ea61-42d1-97f6-d1d6bb7f55b7
+https://github.com/bestriser/nested_modal_bottom_sheet_with_getx/assets/55462291/2aaaf1c0-8b6c-4a26-8ab9-0b84c1b0bf42
