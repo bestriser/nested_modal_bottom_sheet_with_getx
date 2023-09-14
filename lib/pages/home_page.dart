@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget {
           );
         },
         tooltip: 'モーダルボトムシートを立ち上げる',
-        child: const Icon(Icons.add),
+        child: const Icon(Icons.arrow_upward),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
