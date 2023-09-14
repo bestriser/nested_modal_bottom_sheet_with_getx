@@ -8,8 +8,6 @@ import 'second_page.dart';
 class FirstPage extends StatelessWidget {
   const FirstPage({super.key});
 
-  static const String path = '/first';
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,8 +33,8 @@ class FirstPage extends StatelessWidget {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Get.toNamed(
-                  SecondPage.path,
+                Get.to(
+                  const SecondPage(),
                   id: Constants.nestedModalBottomSheetKey,
                 );
               },

@@ -7,8 +7,6 @@ import '../utility/constants.dart';
 class SecondPage extends StatelessWidget {
   const SecondPage({super.key});
 
-  static const String path = '/second';
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
