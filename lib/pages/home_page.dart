@@ -25,9 +25,9 @@ class HomePage extends StatelessWidget {
           Get.bottomSheet(
             Navigator(
               key: Get.nestedKey(Constants.nestedModalBottomSheetKey),
-              onGenerateRoute: (settings) {
+              onGenerateRoute: (_) {
                 return MaterialPageRoute<FirstPage>(
-                  builder: (context) {
+                  builder: (_) {
                     return const FirstPage();
                   },
                 );
