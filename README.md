@@ -4,11 +4,5 @@ GetXの公式ドキュメントの[Route管理 > ネスト構造のナビゲー�
 )を参考にして<br>
 `Get.bottomSheet()`の中で画面遷移するサンプルを作成しました。
 
-## 補足
-`Get.bottomSheet()`の中で画面遷移を行う時のメソッドについて<br>
-`Get.to()`を使用すると`onGenerateRoute()`が反応しなかったので<br>
-`Get.to()`ではなく、`Get.toNamed()`を使用するのがベストだとは思いますが<br>
-`Get.to()`でも問題なく、`Get.bottomSheet()`の中で画面遷移する事はできました。
-
 ## 実装結果
 https://github.com/bestriser/nested_modal_bottom_sheet_with_getx/assets/55462291/09ee8eb4-ea61-42d1-97f6-d1d6bb7f55b7
